@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url("https://www.ihdimages.com/wp-content/uploadsktz/2014/12/basketball_court_desktop_wallpaper.jpg") fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* header styling */
+header {
+  width: 100%;
+  padding: 30px 0;
+  color: #000000;
+  font-size: 25px;
+}
+
+.col-4, .col-8 {
+  float: left;
+  padding-left: 1.04166666%;
+  padding-right: 1.04166666%;
+}
+
+.col-4 {
+  width: 33.33%
+}
+
+.col-8 {
+  width: 66.67%
+}
+
+#logo {
+  border: 2px solid grey;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-left: 20px;
+}
+
+header ul li {
+  padding: 10px 20px;
+  list-style: none;
+  text-align: center;
+  font-size: 25px;
+  text-transform: uppercase;
+  display: inline;
+}
+header ul {
+  text-align: right;
+  margin-top: 50px
+}
+
+/* form styling */
+label {
+  padding: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  /* color: #ffffff; */
+  color: #000000;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  line-height: 22px
+}
+label:hover, label:focus {
+  background-color: #38A9AF;
+}
+label span {
+  font-size: 15px;
+}
+button {
+  padding: 20px;
+  border: none;
+  background-color: #38A9AF;
+  color: #ffffff;
+  font-size: 18px;
+  text-transform: uppercase;
+  border-radius: 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 40px
+}
+button:hover, button:focus {
+  background-color: #363946;
+  color: #ebca52
+}
+.questionAnswerForm {
+  width: 50%;
+  margin: 25%;
+  display: block;
+  text-align: center;
+}
+
+.questionForm {
+  width: 50%;
+  margin: 25%;
+  display: block;
+  text-align: center;
+}
+.answerOption {
+  width: 50%;
+  margin: 0 auto;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000000;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+h2 {
+  text-align: left;
+  margin-bottom: 40px;
+  /* color: #ffffff; */
+  color: #000000;
+  text-transform: uppercase;
+}
+.rightAnswerPic, .wrongAnswerPic {
+  width: 100%;
+  border-radius: 25%;
+  border: 2px solid #afaeae;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+      width: 120px;
+      height: 120px;
+      display: block;
+      margin: auto;
+  }
+  .col-4,
+  .col-8 {
+      width: 100%
+  }
+  header ul {
+      margin: 10px;
+      text-align: center
+  }
+  h1 {
+      font-size: 1.5em
+  }
+  h2 {
+      font-size: 1.5em
+  }
+  header ul li {
+      padding: 10px;
+      font-size: 18px
+  }
+  label {
+        font-size: 16px;
+        padding: 15px
+  }
+}

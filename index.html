@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Basketball Quiz App</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+<body class="background">
+    <header role="banner">
+        <div class="col-4">
+          <img id="logo" src="./quizAppPics/basketballShoes.jpg">
+        </div>
+      <div class="col-8">
+        <ul>
+          <li>Question: <span class="questionNumber">0</span>/10</li>
+          <li>Score: <span class="score">0</span>/10</li>
+        </ul>
+      </div>
+    </header>
+        <main role="main">
+          <div class="questionAnswerForm">
+              <h1>You ready to test your NBA knowledge?</h1>
+              <button type="button" id="startButton">Let's go!</button>
+          </div>
+        </main>
+    <script src="datastore.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
